@@ -8,8 +8,7 @@ public class Scaler : MonoBehaviour
 
     private float scaleChange;
 
-    // Update is called once per frame
-    void Update()
+    private void Update()
     {
         scaleChange = _speed * Time.deltaTime;
 

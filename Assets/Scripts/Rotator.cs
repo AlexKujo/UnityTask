@@ -4,10 +4,9 @@ using UnityEngine;
 
 public class Rotator : MonoBehaviour
 {
-    [SerializeField] float _speed;
+    [SerializeField] private float _speed;
 
-    // Update is called once per frame
-    void Update()
+    private void Update()
     {
         transform.Rotate(Vector3.up * _speed * Time.deltaTime);
     }
